@@ -2,30 +2,45 @@ Helpful Command Line Snippets
 =============================
 
 *Open App As Root:*
-sudo -b "/Applications/TextWrangler.app/Contents/MacOS/TextWrangler"
+
+<pre><code>sudo -b "/Applications/TextWrangler.app/Contents/MacOS/TextWrangler"</code></pre>
+
 
 *GZip A Folder:*
-tar czf GZIPNAME.tgz FOLDERNAME
+
+<pre><code>tar czf GZIPNAME.tgz FOLDERNAME</code></pre>
+
 
 *Split a file into chunks:*
-split -b 500m FILENAME FILENAME_
+
+<pre><code>split -b 500m FILENAME FILENAME_</code></pre>
+
 
 *Restore split file:*
-cat FILENAME_a* > FILENAME
+
+<pre><code>cat FILENAME_a* > FILENAME</code></pre>
+
 
 *Clear DNS Cache:*
-sudo dscacheutil -flushcache
+
+<pre><code>sudo dscacheutil -flushcache</code></pre>
+
 
 *GitHub SSH Key:*
-cd ~/.ssh/
+
+<pre><code>cd ~/.ssh/
 ssh-keygen -t rsa -C "robertdot@gmail.com"
 pbcopy < ~/.ssh/id_rsa.pub
 # Add Key on GitHub Account > SSH Keys and paste code in that is in clipboard.
-ssh -T git@github.com
+ssh -T git@github.com</code></pre>
+
 
 *Symlink*
-cd /folder/where/link/goes/
-link -s /real/folder/
+
+<pre><code>cd /folder/where/link/goes/
+link -s /real/folder/</code></pre>
+
 
 *Encrypt and Decrypt a file with OpenSSL:*
+
 Coming soon.
