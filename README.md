@@ -29,7 +29,7 @@ Helpful Command Line Snippets
 *GitHub SSH Key:*
 
 <pre><code>cd ~/.ssh/
-ssh-keygen -t rsa -C "robertdot@gmail.com"
+ssh-keygen -t rsa -C "you@example.com"
 pbcopy < ~/.ssh/id_rsa.pub
 # Add Key on GitHub Account > SSH Keys and paste code in that is in clipboard.
 ssh -T git@github.com</code></pre>
