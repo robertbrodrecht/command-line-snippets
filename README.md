@@ -18,7 +18,7 @@ Helpful Command Line Snippets
 
 *Restore split file:*
 
-<pre><code>cat FILENAME_a* > FILENAME</code></pre>
+<pre><code>cat FILENAME_a* &gt; FILENAME</code></pre>
 
 
 *Clear DNS Cache:*
@@ -30,8 +30,8 @@ Helpful Command Line Snippets
 
 <pre><code>cd ~/.ssh/
 ssh-keygen -t rsa -C "you@example.com"
-pbcopy < ~/.ssh/id_rsa.pub
-# Add Key on GitHub Account > SSH Keys and paste code in that is in clipboard.
+pbcopy &lt; ~/.ssh/id_rsa.pub
+# Add Key on GitHub Account &gt; SSH Keys and paste code in that is in clipboard.
 ssh -T git@github.com</code></pre>
 
 
