@@ -10,6 +10,8 @@ Helpful Command Line Snippets
 
 <pre><code>tar czf GZIPNAME.tgz FOLDERNAME</code></pre>
 
+<pre><code>ditto -c -z FOLDERNAME GZIPNAME.tgz</code></pre>
+
 
 *Split a file into chunks:*
 
