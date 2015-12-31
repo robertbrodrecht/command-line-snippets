@@ -5,6 +5,9 @@ Helpful Command Line Snippets
 
 <pre><code>sudo -b "/Applications/TextWrangler.app/Contents/MacOS/TextWrangler"</code></pre>
 
+*The .zip .cpzip Loop*
+
+<pre><code>ditto -x -k yourzip.zip yourfolder</code></pre>
 
 *GZip A Folder:*
 
