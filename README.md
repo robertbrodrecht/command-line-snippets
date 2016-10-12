@@ -45,6 +45,9 @@ ssh -T git@github.com</code></pre>
 <pre><code>cd /folder/where/link/goes/
 link -s /real/folder/</code></pre>
 
+*Scrape a Website*
+<pre><code>wget --recursive --no-clobber --page-requisites --html-extension --convert-links --restrict-file-names=windows --domains yourdomain.com --no-parent http://yourdomain.com</code></pre>
+
 
 *Encrypt and Decrypt a file with OpenSSL:*
 
