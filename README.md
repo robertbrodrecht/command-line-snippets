@@ -1,6 +1,9 @@
 Helpful Command Line Snippets
 =============================
 
+*Show hidden files in Finder*
+Not a command line thing but I need this somewhere: shift+command+.
+
 *Open App As Root:*
 
 <pre><code>sudo -b "/Applications/TextWrangler.app/Contents/MacOS/TextWrangler"</code></pre>
