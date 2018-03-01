@@ -51,6 +51,9 @@ link -s /real/folder/</code></pre>
 *Scrape a Website*
 <pre><code>wget --recursive --no-clobber --page-requisites --html-extension --convert-links --restrict-file-names=windows --domains yourdomain.com --no-parent http://yourdomain.com</code></pre>
 
+*Resource Forks*
+
+<pre><code>cat Your-File/..namedfork/rsrc > Your-File-Fork</code></pre>
 
 *Encrypt and Decrypt a file with OpenSSL:*
 
