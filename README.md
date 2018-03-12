@@ -55,6 +55,20 @@ link -s /real/folder/</code></pre>
 
 <pre><code>cat Your-File/..namedfork/rsrc > Your-File-Fork</code></pre>
 
+*Make SSH Easier*
+<pre><code>
+ssh-copy-id user@host.local
+nano ~/.ssh/config
+</code></pre>
+
+Add the following:
+```
+Host nicename
+	HostName host.local
+	User user
+	IdentityFile ~/.ssh/id_rsa
+```
+
 *Encrypt and Decrypt a file with OpenSSL:*
 
 Coming soon.
