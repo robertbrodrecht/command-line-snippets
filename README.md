@@ -42,6 +42,10 @@ pbcopy &lt; ~/.ssh/id_rsa.pub
 # Add Key on GitHub Account &gt; SSH Keys and paste code in that is in clipboard.
 ssh -T git@github.com</code></pre>
 
+*Check Status of All Git Repos in Folder:*
+<pre><code>
+find . -name .git -type d -exec sh -c '(echo {} && cd {} && cd .. && git status -s && echo)' \;
+</code></pre>
 
 *Symlink*
 
