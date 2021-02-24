@@ -55,6 +55,10 @@ link -s /real/folder/</code></pre>
 *Scrape a Website*
 <pre><code>wget --recursive --no-clobber --page-requisites --html-extension --convert-links --restrict-file-names=windows --domains yourdomain.com --no-parent http://yourdomain.com</code></pre>
 
+```
+wget --recursive --page-requisites --adjust-extension --span-hosts --convert-links --restrict-file-names=windows --domains www.progpl.com --no-parent www.progpl.com
+```
+
 *Resource Forks*
 
 <pre><code>cat Your-File/..namedfork/rsrc > Your-File-Fork</code></pre>
@@ -73,6 +77,11 @@ Host nicename
 	IdentityFile ~/.ssh/id_rsa
 ```
 
-*Encrypt and Decrypt a file with OpenSSL:*
+*Encrypt and Decrypt with OpenSSL:*
 
-Coming soon.
+```
+echo -n "Your text" | openssl enc -e -aes-256-cbc -out ~/encrypted.txt
+openssl enc -d -aes-256-cbc -in ~/encrypted.txt
+```
+
+@todo Files
