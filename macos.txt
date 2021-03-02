@@ -1,0 +1,6 @@
+## Faster Dock Animation
+```
+defaults write com.apple.dock autohide-time-modifier -int 0; killall Dock
+defaults write com.apple.dock autohide-time-modifier -float 0.45; killall Dock
+defaults delete com.apple.dock autohide-time-modifier; killall Dock
+```
